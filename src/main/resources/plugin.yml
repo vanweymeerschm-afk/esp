@@ -1,0 +1,17 @@
+name: MarthoxGuard
+version: 1.1.0
+main: com.marthoxsmp.marthoxguard.MarthoxGuard
+api-version: '26.2'
+author: MarthoxSMP
+description: Basic server-side block reach checks and staff alerts. Pair with Paper Anti-Xray.
+commands:
+  marthoxguard:
+    description: Show MarthoxGuard status
+    usage: /marthoxguard
+permissions:
+  marthoxguard.alerts:
+    description: Receive MarthoxGuard staff alerts
+    default: op
+  marthoxguard.bypass:
+    description: Bypass MarthoxGuard reach checks
+    default: op

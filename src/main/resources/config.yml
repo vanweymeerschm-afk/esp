@@ -1,0 +1,5 @@
+# MarthoxGuard basic settings
+checks:
+  # Conservative starter value; test on your server and adjust for your gameplay.
+  max-block-distance: 6.0
+  cancel-suspicious-actions: true
